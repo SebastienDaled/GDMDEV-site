@@ -1,0 +1,32 @@
+// // section__featured
+// // section__featured__title
+// // section__featured__image
+// .section__featured {
+//   position: relative;
+// }
+// .section__featured__title,
+// .section__featured__image{
+//   position: absolute;
+// }
+// .section__featured__image{
+//   top: 10rem;
+// }
+@use "./../abstracts/variables" as v;
+
+.section__featured{
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.section__featured__img{
+  width: 100%;
+}
+.section__featured__cover {
+  width: 100%;
+  height: 100%;
+  background-color: v.$beigev2;
+}
+.featred__titles{
+  font-size: v.$font_size_800;
+  text-transform: initial;
+}

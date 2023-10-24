@@ -1,0 +1,23 @@
+.mask{
+  overflow: hidden;
+}
+.mask__section{
+  display: flex;
+  align-items: center;
+  height: 200vh;
+}
+.mask--project{
+  height: 225px;
+}
+.menu__mask{
+  width: 300px;
+  transform-origin: top;
+  height: 450px;
+  margin: 0 auto;
+}
+.mask__featured{
+  height: 775px;
+}
+.mask__f-title{
+  height: 8rem;
+}

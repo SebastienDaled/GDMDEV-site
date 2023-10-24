@@ -1,0 +1,10 @@
+@use "./../abstracts/variables" as v;
+@use "./fonts";
+
+body {
+  background-color: v.$white;
+  color: v.$black;
+  font-size: v.$font_size_standard;
+  font-family: 'ClashDisplay', sans-serif;
+  text-transform: uppercase;
+}

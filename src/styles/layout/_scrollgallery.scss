@@ -1,0 +1,35 @@
+@use "./../abstracts/variables" as v;
+
+.section {
+  margin-top: 10rem;
+}
+.section__flexcontainer{
+  display: flex;
+  gap: 3rem;
+}
+.section__part--60 {
+  width: 60%;
+}
+.section__part--40 {
+  width: 35%;
+}
+.section__part--scorll{
+  
+  position: relative;
+}
+.part__text, .part__scroll{
+  font-size: v.$font_size_big;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.part__scroll{
+  height: v.$font_size_big;
+  left: 16rem;
+}
+.mask__text--black{
+  color: v.$black;
+}
+.part__text--yellow {
+  color: v.$olive;
+}

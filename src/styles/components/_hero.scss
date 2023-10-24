@@ -1,0 +1,27 @@
+@use "./../abstracts/variables" as v;
+
+
+.header--about {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.header__hero {
+  position: relative;
+}
+.header__hero--about{
+  background-image: url(../../images/about/hero/aboutmain.webp);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+}
+
+.hero__text--about {
+  font-size: v.$font_size_800;
+  text-transform: initial;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: v.$white;
+}

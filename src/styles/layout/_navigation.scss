@@ -1,0 +1,56 @@
+@use './../abstracts/variables' as v;
+
+
+.navigation{
+  position: relative;
+}
+.navigation__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -6px;
+  padding: 1.5rem 2rem;
+}
+.navigation__bar__image{
+  width: 10rem;
+}
+.navigation__bar__btn {
+  background: none;
+  border: none;
+  font-size: v.$font_size_standard;
+}
+.navigation__menu{
+  position: fixed;
+  transform-origin: top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: v.$beigev2;
+  z-index: 1000;
+}
+.navigation__bar__btn--alight-right{
+  margin: 0 0 0 auto;
+}
+.menu__item{
+  font-size: 8rem;
+  text-align: center;
+}
+.menu__number{
+  font-size: 3rem;
+  vertical-align: top;
+  font-family: 'BigDailyShort';
+}
+.menu__item--btn{
+  cursor: pointer;
+  font-size: v.$font_size_600;
+}
+.menu__images img{
+  width: 100%;
+  margin-top: -5px;
+  line-height: 0;
+}
+a{
+  color: v.$black;
+  text-decoration: none;
+}

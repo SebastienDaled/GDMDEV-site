@@ -1,0 +1,41 @@
+@use "./../abstracts/variables" as v;
+
+.section__image {
+  width: 100%;
+}
+.section__image img{
+  width: 100%;
+  transform: scale(1.2);
+}
+.section__info {
+  position: relative;
+}
+.section__block{
+  width: 45%;
+  background-color: v.$beigev2;
+  padding: 4rem 2rem;
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+.block__text--big{
+  font-family: 'BigDailyShort';
+  font-size: v.$font_size_600;
+}
+.block__text--medium{
+  font-size: v.$font_size_big;
+  margin-top: 10rem;
+}
+.block__text--padding{
+  padding: 15rem 0 2rem 0;
+}
+.block__text--yellow{
+  color: v.$olivev2;
+}
+.block__text--lhb{
+  line-height: 140%;
+}
+.section__block--drop30{
+  transform: translate(-50%, 30%);
+}

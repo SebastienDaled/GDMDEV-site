@@ -1,0 +1,22 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "description": "oefening animeren",
+  "main": "index.js",
+  "scripts": {
+    "watch": "mix watch",
+    "build": "mix --production"
+  },
+  "author": "Sebastien Daled-Rosseel",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "gsap": "^3.11.3",
+    "swiper": "^8.4.5"
+  }
+}

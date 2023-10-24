@@ -1,0 +1,53 @@
+@use "./../abstracts/variables" as v;
+
+.section__form {
+  margin-bottom: 10rem;
+}
+.part__label, .part__input {
+  display: block;
+}
+.part__label--margin{
+  margin: 2rem 0 5rem 0;
+}
+.part__label--center {
+  text-align: center;
+}
+.part__input {
+  border: none;
+  border-bottom: 1px solid v.$darkOlive;
+  background: none;
+  width: 60%;
+  margin: 0 auto;
+}
+.part__btn{
+  cursor: pointer;
+}
+.form__part--btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 35rem;
+  margin: 0 auto;
+}
+.part__btn--big {
+  padding: 0;
+  margin-bottom: -3rem;
+  font-size: v.$font_size_ultra;
+}
+.part__btn--SS{
+  font-family: 'ClashDisplay', sans-serif;
+}
+.part__btn--color {
+  color: v.$brown;
+  background: none;
+  border: none;
+}
+.part__img {
+  cursor: pointer;
+  align-self: flex-end;
+  width: 3rem;
+  transition: .5s;
+}
+.form__part--btn:hover .part__img{
+  transform: rotate(-90deg);
+}

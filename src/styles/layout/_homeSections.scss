@@ -1,0 +1,56 @@
+@use "./../abstracts/variables" as v;
+
+.section__text--center{
+  text-align: center;
+}
+.section__text--big{
+  font-size: v.$font_size_big;
+}
+.section__text--standard{
+  font-size: v.$font_size_standard;
+}
+.container{
+  display: grid;
+  gap: 1rem;
+}
+.container--flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container--two{
+  height: 19.5rem;
+  width: 35rem;
+  margin: 1.5rem auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container--small{
+  width: 50rem;
+  margin: 0 auto;
+}
+.container__line{
+  width: 50%;
+  height: 2px;
+  background-color: v.$blackv2;
+}
+.container__text--center {
+  text-align: center;
+}
+.items__images--project img{
+  display: block;
+}
+.section__projects{
+  width: 95%;
+  margin: 0 auto;
+}
+.projects__items{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5rem;
+}
+.project__title{
+  font-size: v.$font_size_600;
+  color: v.$olive;
+  margin-bottom: 1rem;
+  text-transform: initial;
+}

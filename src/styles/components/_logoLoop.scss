@@ -1,0 +1,23 @@
+@use "./../abstracts/variables" as v;
+
+.item__slider{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150%;
+  // gap: 20rem;
+}
+.item__slider img{
+  aspect-ratio: 1/2;
+  object-fit: contain;
+  width: 10%;
+}
+.item__text--big {
+  font-size: v.$font_size_800;
+}
+.item__text--serif{
+  font-family: 'BigDailyShort';
+}
+.item__text--marginbs{
+  margin-bottom: 10rem;
+}

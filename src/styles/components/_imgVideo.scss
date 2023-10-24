@@ -1,0 +1,44 @@
+.img--render{
+  width: 100%;
+}
+.img--block,
+.video--block{
+  display: block;
+}
+
+.video--small {
+  width: 30%;
+}
+.video--big {
+  position:relative;
+  z-index:0;
+  width: 100%;
+}
+
+.img--75 {
+  width: 75%;
+} 
+.img--40 {
+  width: 40%;
+}
+.img--30 {
+  width: 30%;
+}
+.img--25 {
+  width: 25%;
+}
+.img--15 {
+  width: 15%;
+}
+.img--right{
+  margin: 0 0 0 auto;
+}
+.img--right-25 {
+  margin: 0 25% 0 auto;
+}
+.img--right-40 {
+  margin: 0 40% 0 auto;
+}
+.img--left-30{
+  margin: 0 auto 0 30%;
+}

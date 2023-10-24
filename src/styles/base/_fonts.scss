@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Surt';
+    src: url(./../../fonts/Surt-Regular.woff);
+}
+@font-face {
+    font-family: 'BigDailyShort';
+    src: url(./../../fonts/BigDailyShort-LightItalic.woff);
+}
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url(./../../fonts/ClashDisplay-Medium.woff);
+}
+
+.serif {
+    font-family: 'BigDailyShort', serif;
+}
+.no-uppercase{
+    text-transform: lowercase;
+}

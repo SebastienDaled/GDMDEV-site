@@ -1,0 +1,8 @@
+@use "./../abstracts/variables" as v;
+
+.title--ultra {
+  font-size: v.$font_size_ultra;
+}
+.title--center{
+  text-align: center;
+}

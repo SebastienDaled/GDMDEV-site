@@ -1,0 +1,51 @@
+// reset
+@use './base/reset';
+@use './base/fonts';
+@use "./base/standard";
+
+@use "./layout/navigation";
+@use "./layout/scrollgallery";
+@use "./layout/titles";
+@use "./layout/footer";
+@use "./layout/homeSections";
+@use "./layout/featured";
+@use "./layout/aboutSections";
+
+@use "./components/imgVideo";
+@use "./components/masks";
+@use "./components/form";
+@use "./components/imageRoll";
+@use "./components/hero";
+@use "./components/imageText";
+@use "./components/logoLoop";
+@use "./components/loading";
+
+@use "./abstracts/variables" as v;
+
+.videoCard {
+    position: relative;
+}
+.videoCard__overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.overlay__title{
+    
+    font-size: 20rem;
+}
+.overlay__title--capitalized {
+    text-transform: uppercase;
+}
+.svg--container { 
+    width: 100%;
+}
+
+
+.test{
+    height: 90rem;
+}
+.hide {
+    display: none;
+}
